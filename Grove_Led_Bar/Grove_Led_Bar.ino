@@ -1,6 +1,7 @@
 // demo of led bar, set level
 // when use Grove - LED Bar with LinkIt ONE
 // The switch of Grove - Base Shield should put to 3.3V
+// and connect the LED Bar to connector D2 of the Base Shield
 
 #include <Suli.h>
 #include <Wire.h>
@@ -22,5 +23,5 @@ void loop()
     
     level = level>10 ? 0 : level;
     
-    delay(100);
+    delay(1000);
 }
