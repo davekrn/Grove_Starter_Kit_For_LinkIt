@@ -1,9 +1,11 @@
-// Example testing sketch for various DHT humidity/temperature sensors
+#include <DHT.h>
+
+// Example testing sketch for Temperature & Humidity Sensor Pro
 // Written by ladyada, public domain
 
 #include "DHT.h"
 
-#define DHTPIN 2     // what pin we're connected to
+#define DHTPIN 2     // what pin we're connected to (D2)
 
 #define DHTTYPE DHT22   // DHT 22  (AM2302)
 
